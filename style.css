@@ -1,0 +1,221 @@
+@font-face {
+    src:url(Fonts/Roboto/Roboto-medium.tff);
+    font-family:"Roboto";
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src:"Fonts/Montserrat/Montserrat-medium.tff";
+}
+
+
+/* the mark "*" is used to do something for ALL alements*/
+
+* {
+    overflow:auto;
+}
+
+
+.box {
+    padding:"20px"
+}
+
+
+header {
+    box-shadow:3px 3px 6px;
+    background-color:#28282B;
+}
+
+
+
+#header-container{
+    height:30px;
+}
+
+#header-container > a {
+font-size:1.5em;
+padding-right: 15px;
+padding-left:15px;
+color:whitesmoke;
+text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+#header-container:visited > a {
+    font-size:1.5em;
+    padding-right: 15px;
+    padding-left:15px;
+    color:whitesmoke;
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+    }
+
+
+#header-container > a:hover{
+    border-bottom:10px solid #ad0c55;
+}
+
+
+#header-container > a:active{
+ color:#ad0c55; 
+}
+
+
+
+body{
+    background-color:#202020;
+    background-image:url(/Images/Background.webp);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+
+p {
+    color:whitesmoke;
+    font-family:"Roboto","Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+
+p::selection{
+    background-color:whitesmoke;
+    color: #ad0c55;
+}
+
+
+
+
+
+
+
+a {
+    color:#027ef2;
+}
+
+button {
+    color:#615f63 ; background-color: #28282B;
+}
+
+
+
+ul {
+    color:#027ef2;
+    font-family:"Roboto", "Montserrat";
+}
+
+
+.description {
+    font-family: "Roboto", "Montserrat";
+    color:#f20232;   
+    text-shadow:0px 0px 0px;
+    padding-left:60px;
+}
+
+
+#Birthday {
+color: red; background-color: blue;
+}
+
+
+
+h1 {
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+
+h2 {
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+
+h3 {
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+h4:hover{
+    border-bottom:10px solid green;
+}
+
+
+
+
+label {
+    color:#615f63;
+    font-family: "Roboto", "Montserrat";
+}
+
+
+
+button {
+    color:black;
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+    box-shadow:3px 3px 5px black;
+}
+
+
+
+input {
+    color:#212121;
+    font-family: "Roboto", "Montserrat";
+}
+
+
+
+select {
+    color:#212121;
+    font-family: "Roboto", "Montserrat";
+}
+
+
+
+textarea {
+    color:#212121;
+    font-family: "Roboto", "Montserrat";
+    border:6px black;
+}
+
+
+
+video {
+    border: 4px black solid;
+}
+
+
+
+#vergil-intro {
+    float: right
+}
+
+
+#Nero {
+    float:left;
+    height:65px;    
+}
+
+
+#Dante {
+    float:left;
+    height:40px;    
+}
+
+
+#V {
+    float:left;
+    height:35px;    
+}
+
+
+#unknown::before {
+   content:"❔";
+   padding-left: 31px;
+}
+
+
