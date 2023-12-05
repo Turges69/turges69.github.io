@@ -1,11 +1,11 @@
 @font-face {
-    src:url(Fonts/Roboto/Roboto-medium.tff);
+    src:url(Roboto-medium.tff);
     font-family:"Roboto";
 }
 
 @font-face {
     font-family:"Montserrat";
-    src:"Fonts/Montserrat/Montserrat-medium.tff";
+    src:"Montserrat-medium.tff";
 }
 
 
@@ -62,7 +62,7 @@ text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
 
 body{
     background-color:#202020;
-    background-image:url(/Images/Background.webp);
+    background-image:url(Background.webp);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
